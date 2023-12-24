@@ -16,6 +16,7 @@ Esta aplicación que permite convertir la bandeja de entrada de WhatsApp en un C
 ### Archivos del proyecto
 ```
 📦wpw/
+ ├── 📂node_modules/
  ├── 📄.env
  ├── 📄.env.example
  ├── 📄.gitignore
