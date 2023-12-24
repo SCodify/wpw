@@ -6,7 +6,7 @@ async function wpResponse() {
     try {
         const client = await start()
         client.on('message', message => {
-            if (message.body.startsWith("gpt:")) {
+            if (message.body.startsWith("gpt:".toLowerCase())) {
                 axios.post(`${process.env.API_URL}/api/ask`, message.body.slice(4))
                     .then(response => {
                         client.sendMessage(message.from, response)
