@@ -5,7 +5,7 @@ Esta aplicación que permite convertir la bandeja de entrada de WhatsApp en un C
 ### Instalación del proyecto
 1. Clonar este repositorio y el repositorio [gpt-back](https://github.com/SCodify/gpt-back) (seguir las instrucciones de instalación de [gpt-back](https://github.com/SCodify/gpt-back)).
 2. Instalar las dependencias con el comando `npm install`.
-3. Crear el archivo de variable de entorno con el comando `touch .env`
+3. Crear el archivo de variable de entorno con el comando `touch .env`.
 4. Definir las variables de entorno del archivo `.env` con el mismo nombre de las variables de `.env.example`.
 
 ### Ejecución del proyecto
